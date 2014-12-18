@@ -1,40 +1,36 @@
 <?php include '../header.php'; ?>
+<link rel="canonical" href="http://cobcheshire.com/register-with-us" />
 <title>Cock O' Barton | Register With Us</title>
 <?php include '../nav.php'; ?>
 <div class="container register-with-us">
   <div class="row mb24">
     <div class="col-lg-9">
-      <h1 class="mb24">Register with us</h1>
-      <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span>Registration successful. We will get in touch soon!</strong></div>
-      <div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong>Something went wrong! Please refresh the page and try again.</strong></div>
-      <form id="register" role="form" action="../scripts/register.php" class="form-horizontal" method="post" data-bv-feedbackicons-valid="glyphicon glyphicon-ok" data-bv-feedbackicons-invalid="glyphicon glyphicon-remove" data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
-        <div class="form-group col-lg-12">
-          <label for="InputName">Your Name</label>
-          <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+      <h1 class="mb48 mt48">Register with us</h1>
+      <div class="row">
+        <div class="col-lg-2 col-sm-2"></div>
+        <div class="col-lg-8 col-sm-8 bodycopy">
+          <p>Subscribe to our email newsletter & receive updates by simply filling out the form below.</p>
+          <div class="alert alert-success"><strong>Registration successful. We will get in touch soon!</strong></div>
+          <div class="alert alert-danger"><strong>Something went wrong! Please refresh the page and try again.</strong></div>
+          <form id="register" role="form" action="../scripts/register.php" class="form-horizontal" method="post" data-bv-feedbackicons-valid="glyphicon glyphicon-ok" data-bv-feedbackicons-invalid="glyphicon glyphicon-remove" data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+            <div class="form-group col-lg-12">
+              <label for="InputName">Your Name</label>
+              <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+            </div>
+            <div class="form-group col-lg-12">
+              <label for="InputEmail">Your Email</label>
+              <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+            </div>
+            <div class="form-group col-lg-12">
+              <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+            </div>
+          </form>
         </div>
-        <div class="form-group col-lg-12">
-          <label for="InputEmail">Your Email</label>
-          <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
-        </div>
-        <div class="form-group col-lg-12">
-          <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
-        </div>
-      </form>
+        <div class="col-lg-2 col-sm-2"></div>
+      </div>
     </div>
     <div class="col-lg-3">
-      <div class="col-lg-12 col-sm-6 december mt24 nopadding"> <a href="#">
-        <h1>December at the COB</h1>
-        <h4>Click to view and download our Advent calender to ensure that you never miss a date</h4>
-        <img class="shake" src="../images/banner_r_1.png" /> </a> </div>
-      <div class="col-lg-12 col-sm-6 christmas nopadding mt24 mb24"> <a href="#">
-        <h1>Christmas<br/>
-          2014</h1>
-        <h4>Available from Wednesday 19th November<br />
-          Festive Package<br />
-          &pound;28.50 for three courses from 12 noon till 9pm Tuesday to Saturday<br />
-          Do you have a large party and fancy exclusive use of the venue?</h4>
-        <h3>Choose a Monday and have exclusive use of the whole venue with no hire charge!</h3>
-        <img class="shake" src="../images/banner_r_1.png" /> </a> </div>
+      <?php include '../banner.php'; ?>
     </div>
   </div>
 </div>
