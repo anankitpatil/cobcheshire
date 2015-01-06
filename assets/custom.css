@@ -43,7 +43,7 @@ figure img{width:100%;height:auto}
 .december,.christmas{background:#000;text-align:center;position:relative;height:330px;overflow:hidden}
 .december a img,.christmas a img{-webkit-transition:all 600ms ease-out;-moz-transition:all 600ms ease-out;-o-transition:all 600ms ease-out;transition:all 600ms ease-out;position:absolute;top:0px;left:0px;z-index:0;width:100%;height:auto}
 .christmas{background:#FFF;border:1px inset #CCC}
-.december a:hover img,.christmas a:hover img{-webkit-transform:scale(1.2)}
+.december a:hover img,.christmas a:hover img{/*-webkit-transform:scale(1.2)*/}
 .december a h1,.december a h4,.christmas a h1,.christmas a h4,.christmas a h3{z-index:1;position:absolute;top:48px;width:100%;color:rgba(180,142,77,1);text-transform:uppercase;font-weight:700;font-size:30px;padding:6px}
 .december a h4{top:165px;padding:0 24px;font-weight:200;font-size:21px;text-transform:none}
 .christmas a img{opacity:0.33}
